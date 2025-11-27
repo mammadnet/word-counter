@@ -1,8 +1,13 @@
+function extract_word(feild){
+        match(feild,/[A-Za-z0-9\-\']+/)
+        word = substr(feild, RSTART, RLENGTH)
+        return word
+}
+
 {
     count += NF
-    for (w=1; w < NF; w++){
-        match($w,/[A-Za-z0-9\-\']+/)
-        word = substr($w, RSTART, RLENGTH)
+    for (f=1; f < NF; f++){
+        word = extract_word($f)
         word_count[word] += 1
     }
 
