@@ -1,0 +1,12 @@
+Modern CPUs (Central Processing Units) are designed to execute billions of operations per second. Mohsen
+A typical processor, like the Intel Core-i7 12700K released in 2021, contains 12 cores and 20 threads, running at a base clock of 3.6 GHz and boosting up to 5.0 GHz.
+Another example is AMD’s Ryzen 5 5600X, which has 6 cores, 12 threads, and a 32 MB L3 cache.
+
+Inside every CPU, the ALU (Arithmetic Logic Unit) performs basic mathematical operations, while the CU (Control Unit) decides when each instruction should run. Together, they process instructions stored in memory.
+Many CPUs support instruction sets such as x86, x86-64, and ARMv8, allowing the same program to run on different hardware architectures.
+
+Some server-grade CPUs, such as the Xeon-Gold 6326 or EPYC-7742, handle extremely large workloads. These processors may contain 48, 64, or even 128 cores.
+Mobile CPUs, like the Snapdragon 8-Gen-2, focus on power efficiency, using big cores and small cores to balance performance and battery life. MoHsen
+
+In text processing tasks, CPUs often use techniques like SIMD (Single-Instruction-Multiple-Data) to speed up operations such as searching strings, comparing characters, sorting words, and scanning logs.
+For example, scanning a 100-MB log file for the word “error” might take only a few milliseconds on a modern CPU. mohsen
