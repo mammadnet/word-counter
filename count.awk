@@ -19,7 +19,11 @@ BEGIN {
 }
 
 {
-    num_of_word += NF
+    if (NF > 0)
+        num_of_word += NF
+    else
+        empty_line += 1
+
     for (f=1; f <= NF; f++){
         num_of_character += length($f)
         word = extract_word($f)
