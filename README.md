@@ -1,6 +1,6 @@
 # word-counter
 
-A simple command-line tool (or script set) to count words in text — implemented with AWK / Shell.
+A command-line tool to count words in text implemented with AWK.
 
 ## What is it  
 
